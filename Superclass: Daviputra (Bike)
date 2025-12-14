@@ -1,6 +1,6 @@
 class Daviputra {
 
-    String engine = "150cc";
+    String engine = "1000cc";
     int wheels = 2;
 
     void start() {
