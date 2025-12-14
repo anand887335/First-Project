@@ -1,0 +1,17 @@
+public class BikeTest {
+
+    public static void main(String[] args) {
+
+        Daviputra bike;
+
+        bike = new SportModel();   // polymorphism
+        bike.start();
+        bike.features();
+
+        System.out.println("--------");
+
+        bike = new ClassicModel(); // polymorphism
+        bike.start();
+        bike.features();
+    }
+}
