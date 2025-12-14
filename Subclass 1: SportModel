@@ -1,0 +1,8 @@
+class SportModel extends Daviputra {
+
+    void features() {
+        super.features();
+        System.out.println("Feature: Disc Brake");
+        System.out.println("Feature: ABS");
+    }
+}
