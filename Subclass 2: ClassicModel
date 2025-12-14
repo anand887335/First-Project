@@ -1,0 +1,8 @@
+class ClassicModel extends Daviputra {
+
+    void features() {
+        super.features();
+        System.out.println("Feature: Drum Brake");
+        System.out.println("Feature: Comfortable Seat");
+    }
+}
